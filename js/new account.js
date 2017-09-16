@@ -1,7 +1,6 @@
 var fdb = new ForerunnerDB();
 var db = fdb.db("my db");
 var accountCollection = db.collection('account');
-
 accountCollection.load();
 
 $("#submit").click(function(){

@@ -9,7 +9,7 @@
 				ul {
 				list-style-type: none;
 				margin: 0;
-				padding: 0;2
+				padding: 0;
 				width: 200px;
 				background-color: #f1f1f1;
 				}
@@ -27,16 +27,16 @@
 		</style>
 	</head>
 	<body><center>
-		日期:<input type="date" name=""><br>
-		項目:<input type="" name=""><br>
-		金額:<input type="" name=""><br>
-		類別:<select>
+		日期:<input type="date" name="" id="date"><br>
+		項目:<input type="" name="" id="item"><br>
+		金額:<input type="" name="" id="cost"><br>
+		類別:<select id="category">
 			<option value="">類別</option>
-			<option value="Meal">吃飯</option>
-			<option value="play">玩</option>
-			<option value="others">其他</option>
+			<option value="Meal">飲食</option>
+			<option value="Play">娛樂</option>
+			<option value="Others">其他</option>
 		</select><br>
-		<button>送出</button>
+		<button id="submit">送出</button>
 	</center>
 	<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
 	<script type="text/javascript" src="js/fdb-all.min.js"></script>
